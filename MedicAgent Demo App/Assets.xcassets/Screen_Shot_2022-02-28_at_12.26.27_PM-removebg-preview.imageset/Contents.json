@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "Screen_Shot_2022-02-28_at_12.26.27_PM-removebg-preview.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -16,9 +17,5 @@
   "info" : {
     "author" : "xcode",
     "version" : 1
-  },
-  "properties" : {
-    "compression-type" : "gpu-optimized-smallest",
-    "preserves-vector-representation" : true
   }
 }
