@@ -160,9 +160,6 @@
                                 <buttonConfiguration key="configuration" style="gray" title="Back to Home">
                                     <fontDescription key="titleFontDescription" name="Futura-MediumItalic" family="Futura" pointSize="14"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="Cqd-S7-Lsn"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2B1-S5-2YJ">
                                 <rect key="frame" x="17" y="302" width="381" height="67"/>
@@ -236,6 +233,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nV0-KD-sKk">
                                 <rect key="frame" x="17" y="217" width="384" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                 <color key="tintColor" red="0.371759226" green="0.66602105109999998" blue="0.96620899439999997" alpha="0.55335884353741494" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -243,6 +241,10 @@
                                 <buttonConfiguration key="configuration" style="gray" title="Your February 26, 2022 Follow-Up Appointment with Dr. Smith">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="gQy-Hc-9Jg" appends="YES" id="Gmg-Go-xt0"/>
+                                    <segue destination="8DI-m7-rqQ" kind="presentation" id="bvp-hG-b4M"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3Th-33-K9Z"/>
@@ -250,8 +252,24 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rpk-pf-Oa1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="gQy-Hc-9Jg"/>
             </objects>
             <point key="canvasLocation" x="34.782608695652179" y="761.38392857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ikb-VM-Mhm">
+            <objects>
+                <viewController id="8DI-m7-rqQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HJk-Ke-Nto">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="lIN-ME-FXU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z0o-91-Cst" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="774" y="761"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="JyF-Tu-Qx4">
@@ -360,9 +378,6 @@
             <point key="canvasLocation" x="1418.840579710145" y="83.705357142857139"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="Cqd-S7-Lsn"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="Radiation Oncology" width="1728" height="2304"/>
         <image name="Screen_Shot_2022-02-28_at_12.26.27_PM-removebg-preview" width="50" height="51"/>
