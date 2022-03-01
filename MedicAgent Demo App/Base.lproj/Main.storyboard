@@ -9,6 +9,41 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="rH5-SX-mRi">
+            <objects>
+                <viewController id="q36-c6-fhA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ekc-R4-7hO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Most Recent Payments" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pR-nC-dAz">
+                                <rect key="frame" x="64" y="70" width="287" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="As of 2/26/2022" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jhd-JH-tLW">
+                                <rect key="frame" x="114" y="108" width="185" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-03-01 at 9.36.12 AM" translatesAutoresizingMaskIntoConstraints="NO" id="oZn-Yg-9am">
+                                <rect key="frame" x="1" y="44" width="413" height="809"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BAv-Pk-Vgy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Ep-Ra-F2R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="-607.36607142857144"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MedicAgent_Demo_App" customModuleProvider="target" sceneMemberID="viewController">
@@ -63,6 +98,9 @@
                                 <buttonConfiguration key="configuration" style="tinted" title="Billing Solutions">
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="q36-c6-fhA" kind="presentation" modalPresentationStyle="fullScreen" id="U1o-kx-kVA"/>
+                                </connections>
                             </button>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F1T-zQ-BmM">
                                 <rect key="frame" x="0.0" y="788" width="414" height="44"/>
@@ -405,6 +443,7 @@
     <resources>
         <image name="Doctor Feedback" width="1728" height="2304"/>
         <image name="Radiation Oncology" width="1728" height="2304"/>
+        <image name="Screen Shot 2022-03-01 at 9.36.12 AM" width="582" height="706"/>
         <image name="Screen_Shot_2022-02-28_at_12.26.27_PM-removebg-preview" width="50" height="51"/>
         <image name="bill" width="512" height="512"/>
         <image name="chat_icon-removebg-preview" width="54" height="51"/>
