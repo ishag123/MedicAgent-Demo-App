@@ -164,66 +164,57 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="Cqd-S7-Lsn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nV0-KD-sKk">
-                                <rect key="frame" x="17" y="218" width="384" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.371759226" green="0.66602105109999998" blue="0.96620899439999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Your February 26, 2022 Follow-Up Appointment with Dr. Smith" titleAlignment="center">
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
-                                </buttonConfiguration>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2B1-S5-2YJ">
                                 <rect key="frame" x="17" y="302" width="381" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="systemPinkColor"/>
+                                <color key="tintColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="0.65444302721088432" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Your February 18, 2022 Radiotherapy Test with Dr. Anderson" titleAlignment="center">
+                                <buttonConfiguration key="configuration" style="gray" title="Your February 18, 2022 Radiotherapy Test with Dr. Anderson" titleAlignment="center">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KMW-ah-0Xg">
                                 <rect key="frame" x="13" y="475" width="388" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="systemPinkColor"/>
+                                <color key="tintColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="0.65000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Your December 15, 2022 Radiotherapy Test with Dr. Anderson" titleAlignment="center">
+                                <buttonConfiguration key="configuration" style="gray" title="Your December 15, 2022 Radiotherapy Test with Dr. Anderson" titleAlignment="center">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33n-it-qCK">
                                 <rect key="frame" x="13" y="640" width="384" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="systemPinkColor"/>
+                                <color key="tintColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="0.65000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Your November 19, 2021 Radiotherapy Test with Dr. Anderson" titleAlignment="center">
+                                <buttonConfiguration key="configuration" style="gray" title="Your November 19, 2021 Radiotherapy Test with Dr. Anderson" titleAlignment="center">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xzz-nb-foH">
                                 <rect key="frame" x="13" y="556" width="388" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.371759226" green="0.66602105109999998" blue="0.96620899439999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.371759226" green="0.66602105109999998" blue="0.96620899439999997" alpha="0.55000000000000004" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Your November 28, 2021 Follow-Up Appointment with Dr. Smith" titleAlignment="center">
+                                <buttonConfiguration key="configuration" style="gray" title="Your November 28, 2021 Follow-Up Appointment with Dr. Smith" titleAlignment="center">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RV4-IE-yl1">
                                 <rect key="frame" x="13" y="389" width="388" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.371759226" green="0.66602105109999998" blue="0.96620899439999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.371759226" green="0.66602105109999998" blue="0.96620899439999997" alpha="0.55000000000000004" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Your January 29, 2022 Check-Up Visit with Dr. Smith" titleAlignment="center">
+                                <buttonConfiguration key="configuration" style="gray" title="Your January 29, 2022 Check-Up Visit with Dr. Smith" titleAlignment="center">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAb-88-J5k">
                                 <rect key="frame" x="13" y="734" width="385" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.371759226" green="0.66602105109999998" blue="0.96620899439999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.371759226" green="0.66602105109999998" blue="0.96620899439999997" alpha="0.5479910714285714" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Your November 9, 2021 Diagnostic with Dr. Smith" titleAlignment="center">
+                                <buttonConfiguration key="configuration" style="gray" title="Your November 9, 2021 Diagnostic with Dr. Smith" titleAlignment="center">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                 </buttonConfiguration>
                             </button>
@@ -236,12 +227,23 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click to View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbf-2v-S4H">
-                                <rect key="frame" x="143" y="162" width="133" height="27"/>
+                                <rect key="frame" x="139" y="160" width="133" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nV0-KD-sKk">
+                                <rect key="frame" x="17" y="217" width="384" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="tintColor" red="0.371759226" green="0.66602105109999998" blue="0.96620899439999997" alpha="0.55335884353741494" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Your February 26, 2022 Follow-Up Appointment with Dr. Smith"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Your February 26, 2022 Follow-Up Appointment with Dr. Smith">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3Th-33-K9Z"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
